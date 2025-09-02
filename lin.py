@@ -77,7 +77,7 @@ print("Lasso Intercept:", lasso_model.intercept_)
 
 
 
-plt.scatter(x, y, color='green', label='Data')
+plt.scatter(x, y, color='purple', label='Data')
 plt.plot(x, model.predict(x), color='black', label='Linear')
 plt.plot(x, ridge_model.predict(x), color='blue', linestyle='--', label='Ridge')
 plt.plot(x, lasso_model.predict(x), color='red', linestyle=':', label='Lasso')
